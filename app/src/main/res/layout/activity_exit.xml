@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="0dp"
+    tools:context="com.experis.smartrac.as.ExitActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutAttendance12"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/spinnerl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Associate"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backdropdownfieldblack"
+                android:drawSelectorOnTop="true"
+                android:entries="@array/leave_spinnerItems"
+                android:prompt="@string/spinner_title"
+                android:textColor="#000000"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/normalleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Working Day:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="datetime"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="Select Date"
+                android:textColorHint="#615D5D"
+                android:focusable="false"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/attendancepagetodateEditTextID1"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+
+            <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/noticeperiod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notice Period(Days):"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="30"
+                android:text="30"
+                android:textColorHint="#615D5D"
+                android:focusable="true"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/noticeedt"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:focusedByDefault="false"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/resgdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Resignation:"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="2020-12-02"
+                android:text="2020-12-02"
+                android:textColorHint="#615D5D"
+                android:focusable="true"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/regdt"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusedByDefault="true"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Email Id:"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="test@tt.com"
+                android:textColorHint="#615D5D"
+                android:focusable="true"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/emailidedt"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/reasonleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reason for Leave:"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="reason"
+                android:textColorHint="#615D5D"
+                android:focusable="true"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/reasonforleaveedt"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/attendancePageSubmitImageViewID3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submitbtn"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"/>
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="visible" />-->
+
+        <!-- Spinner Element -->
+      <!--android:background="@drawable/attendanceapprovaldropdownback"-->
+
+
+        <!--android:background="@drawable/edittextfieldback"-->
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingLeft="0dp"
+    android:paddingTop="10dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.experis.smartrac.as.DashBoardActivity"
+    tools:showIn="@layout/activity_dash_board">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingBottom="15dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView android:id="@+id/loginpageCompanyLogoImageViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dashboardcompanylogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"/>
+
+    </LinearLayout>-->
+
+    <include layout="@layout/dashboardtoplayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dashboardbottomLayoutID"
+        android:layout_below="@+id/dashboardpageCompanyLogoLayoutID"
+        android:layout_centerInParent="true"
+        android:layout_margin="0dp"
+        android:background="#ffffff"
+        android:orientation="vertical"> <!--android:background="#656b72"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/layoutID1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/attendance_icon_new_top" />
+
+            <LinearLayout
+                android:id="@+id/layoutID1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical">
+                <!--<ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/attendance_icon_new_top"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"/>-->
+                <Button
+                    android:id="@+id/dashboardImageViewAttendanceNewID"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/custom_button"
+                    android:gravity="center"
+                    android:text="Punch Attendance"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="normal"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/dashboardImageViewAttendanceNewID2"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_button2"
+                    android:gravity="center"
+                    android:text="My Attendance"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="normal"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dashboardResponseLayoutID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textResponseID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:paddingBottom="20dp"
+                    android:text="Success!!!!"
+                    android:textColor="#f7941d"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+                <!--<Button
+                    android:id="@+id/btnResponseID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="OK"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold|normal"
+                    android:textSize="20sp"/>-->
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnResponseID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorPrimary"
+                android:text="OK"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <GridView
+            android:id="@+id/dashBoardForAssociatesGridViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnWidth="130dp"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp"
+            android:visibility="visible"></GridView>
+
+        <GridView
+            android:id="@+id/dashBoardForTLGridViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnWidth="130dp"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp"
+            android:visibility="gone"></GridView>
+
+        <GridView
+            android:id="@+id/dashBoardForSMGridViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnWidth="130dp"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp"
+            android:visibility="gone"></GridView>
+
+        <GridView
+            android:id="@+id/dashBoardForSOOGridViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnWidth="130dp"
+            android:gravity="center"
+            android:horizontalSpacing="0dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp"
+            android:visibility="gone"></GridView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/dashboardbottomLayoutID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/dashboardbottomlayout" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

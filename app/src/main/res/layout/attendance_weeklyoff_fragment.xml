@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewAttendance2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232b35"
+    tools:context="com.experis.smartrac.as.AttendanceWeeklyoffFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutAttendance11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp">
+
+                <!--            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="From Date"
+                                android:textStyle="normal"
+                                android:textSize="16sp"
+                                android:textColor="#ffffff"/>
+
+                            <EditText
+                                android:layout_width="fill_parent"
+                                android:layout_height="40dp"
+                                android:paddingLeft="10dp"
+                                android:inputType="datetime"
+                                android:lines="1"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_marginBottom="30dp"
+                                android:drawablePadding="15dp"
+                                android:maxLength="50"
+                                android:visibility="visible"
+                                android:gravity="start|center_vertical"
+                                android:hint="Select Date"
+                                android:theme="@style/MyEditTextTheme"
+                                android:id="@+id/attendancepagefromdateEditTextID"
+                                android:background="@drawable/edittextfieldback"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal"
+                                />--> <!--android:drawableLeft="@drawable/usericon"-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/attendancepagetodateEditTextID"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextfieldforsalestracking"
+                    android:drawablePadding="15dp"
+                    android:focusable="false"
+                    android:gravity="start|center_vertical"
+                    android:hint="Select Date"
+                    android:inputType="datetime"
+                    android:lines="1"
+                    android:maxLength="50"
+                    android:paddingLeft="10dp"
+                    android:textColor="#e1e1e1"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:theme="@style/MyEditTextTheme"
+                    android:visibility="visible" /> <!--android:background="@drawable/edittextfieldback"-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reason:"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/attendancepagereasonEditTextID"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextfieldforsalestracking"
+                    android:drawablePadding="15dp"
+                    android:gravity="start|center_vertical"
+                    android:hint="Reason"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:maxLength="50"
+                    android:paddingLeft="10dp"
+                    android:textColor="#e1e1e1"
+                    android:textColorHint="#e1e1e1"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    android:theme="@style/MyEditTextTheme"
+                    android:visibility="visible" /> <!--android:background="@drawable/edittextfieldback"-->
+
+            </LinearLayout>
+
+
+            <!--<ImageView
+                android:id="@+id/attendancePageSubmitImageViewID2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submitbtn"
+                android:layout_gravity="center"
+                android:layout_below="@+id/linearLayoutAttendance11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"/>-->
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/attendancePageSubmitImageViewID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/submitbtn" />
+
+</RelativeLayout>

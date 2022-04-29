@@ -1,0 +1,66 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,540,384,634,718",
+                        "endLines": "8,15,13,17,21",
+                        "endColumns": "12,90,12,80,12",
+                        "endOffsets": "376,626,532,710,816"
+                    },
+                    "to": {
+                        "startLines": "2,8,9,13,52",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,374,464,614,3435",
+                        "endLines": "7,8,12,13,54",
+                        "endColumns": "12,89,12,79,12",
+                        "endOffsets": "369,459,609,689,3531"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\eb685760cc172fa366f14bb6456b1404\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "3285",
+                        "endLines": "51",
+                        "endColumns": "12",
+                        "endOffsets": "3430"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\b7ae6324209450e2b565b9dd2a87a7fd\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,31,44,45,46,47,48",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "694,829,964,1039,1126,1916,2718,2845,2950,3065,3172",
+                        "endLines": "14,15,16,17,30,43,44,45,46,47,48",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "824,959,1034,1121,1911,2713,2840,2945,3060,3167,3280"
+                    }
+                }
+            ]
+        }
+    ]
+}

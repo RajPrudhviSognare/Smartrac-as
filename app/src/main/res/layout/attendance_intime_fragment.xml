@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewAttendance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.experis.smartrac.as.AttendanceIntimeFragmet"
+    >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_above="@id/btnSubmitAttendance"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+
+            >
+            <ImageView
+                android:id="@+id/attendancePageTakePicturePlusIconImageViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/takepicture_plusicon"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:id="@+id/attendancePageTextViewID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take a Picture"
+                android:textStyle="normal"
+                android:textSize="32sp"
+                android:layout_below="@+id/attendancePageTakePicturePlusIconImageViewID"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#a7b6c8"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:id="@+id/attendancePageTextViewID2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take a clear picture inside your work Place"
+                android:textStyle="normal"
+                android:textSize="16sp"
+                android:layout_below="@+id/attendancePageTextViewID1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:textColor="#a7b6c8"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                />
+
+            <RelativeLayout
+                android:id="@+id/attendancePagePhotoPreviewAreaLayoutID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/attendancePageTextViewID2">
+
+                <ImageView
+                    android:id="@+id/attendancePagePhotoPreviewAreaImageViewID"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/photo_preview_area"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/attendancePageReasonValueEditTextID"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:inputType="text"
+                android:lines="1"
+                android:layout_below="@+id/attendancePagePhotoPreviewAreaLayoutID"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="gone"
+                android:gravity="start|center_vertical"
+                android:hint="Write Comment..."
+                android:textColorHint="#dddddd"
+                android:theme="@style/MyEditTextTheme"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#e1e1e1"
+                android:textSize="14sp"
+                android:textStyle="normal"
+
+                />
+
+            <!--<ImageView
+                android:id="@+id/attendancePageSubmitImageViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/submitbtn"
+                android:layout_gravity="center"
+                android:layout_below="@+id/attendancePagePhotoPreviewAreaImageViewID"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"/>-->
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+    <ImageView
+        android:id="@+id/attendancePageSubmitImageViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/submitbtn"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add your selfie"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_curved_edged"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/etResume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.7"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image_black_24dp" />
+        <!--<EditText
+            android:id="@+id/etResume"
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@null"
+            android:focusable="false"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"/>-->
+
+        <ImageView
+            android:id="@+id/ivResumeimg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmitAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#4570A7"
+        android:text="Punch Attendance"
+        android:textColor="#FFF"
+        android:visibility="visible" />
+
+</RelativeLayout>

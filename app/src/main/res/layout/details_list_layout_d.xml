@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+<TextView
+    android:id="@+id/txttitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:textColor="@color/colorPrimary"
+    ></TextView>
+   <TextView
+       android:id="@+id/textmsg"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="16sp"
+       android:textStyle="normal"
+       android:textColor="@android:color/black"
+       android:layout_below="@+id/txttitle"
+       android:layout_marginTop="16dp"></TextView>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:gravity="center"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_below="@id/textmsg"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"></Button>
+
+</RelativeLayout>

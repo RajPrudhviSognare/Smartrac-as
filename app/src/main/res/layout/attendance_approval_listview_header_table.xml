@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="#cccccc"
+    android:weightSum="5"
+    android:layout_margin="0dp"
+    android:id="@+id/listview_header_InOutTime_for_table_LinearLayoutID"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_EmptyForCheckboxTagTextViewID1001"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="left"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_NameISDTagTextViewID1001"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Name \u0026 ISD"
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#1a237e"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewInOutTimeID1000199991"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_TYPE_TagTextViewID1001"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Type \u0026 Time"
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#1a237e"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewInOutTimeID100019999091"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_Comments_TagTextViewID1001"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#1a237e"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewInOutTimeID1000199990910"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_Comments_TL_TagTextViewID1001"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Comment(TL)"
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#1a237e"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewInOutTimeID10001999909109"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.8"
+        android:background="#a1a1a1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/listviewHeader_InOutTime_Variation_TagTextViewID1001"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:text="Variation(m)"
+        android:textColor="#1a237e"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
+        android:visibility="gone" />
+
+</LinearLayout>

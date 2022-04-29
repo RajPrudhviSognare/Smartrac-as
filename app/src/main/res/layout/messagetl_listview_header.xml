@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eeeeee"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:weightSum="3">
+
+    <CheckBox
+        android:id="@+id/messagesTL_checkBox_listheaderID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="0dp"
+        android:text="Select All"
+        android:textColor="#4e5d71"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:layout_weight="1"/> <!--android:textColor="#4e5d71"-->
+
+    <View
+        android:id="@+id/messagesTLcustomViewAttendanceApprovalID10001"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/messagesTL_AssociateIDTAGTextViewID"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Associate ID"
+        android:textStyle="normal|bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#1a237e"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/messagesTLcustomViewAttendanceApprovalID10002"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/messagesTL_AssociateNameTagTextViewID"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Associate Name"
+        android:textStyle="normal|bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#1a237e"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

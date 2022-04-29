@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    >
+
+    <ImageView
+        android:id="@+id/attendancetopbarbackImageViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leftarrowicon"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Attendance"
+        android:textStyle="bold"
+        android:textColor="@color/whitecolor"
+        android:id="@+id/mytext"
+        android:textSize="16sp"
+        />
+
+    <ImageView
+        android:id="@+id/attendancetopbarusericonImageViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbardashboardusericon"
+        android:layout_gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dashboardpageCompanyLogoLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/dashboardTopbarCompanyLogoImageViewID"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/mplogo2"/>
+
+    <View
+        android:id="@+id/customView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_anchor="@+id/dashboardpageCompanyLogoLayoutID"
+        android:layout_below="@+id/dashboardTopbarCompanyLogoImageViewID"
+        android:background="#dadada"
+        android:alpha="0.9"/>
+
+    <TextView
+        android:id="@+id/dashboardTopUserNameTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal|bold"
+        android:textSize="13sp"
+        android:textColor="#464646"
+        android:paddingBottom="3dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/dashboardTopCompanyAddressTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#464646"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/customView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        app:layout_anchor="@+id/dashboardpageCompanyLogoLayoutID"
+        android:background="#dadada"
+        android:alpha="0.9"/>
+
+</LinearLayout>

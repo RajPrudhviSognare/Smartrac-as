@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/attendancetopbarcolor"
+    android:alpha="1.0"
+    android:id="@+id/attendancepagetopbarLayoutID">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:text="Attendance"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="normal|bold"
+        android:textColor="@color/whitecolor"
+        android:id="@+id/mytextID"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/customlayout_dashboard_ImageViewID"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gotohomeicon"
+        android:layout_marginRight="20dp"
+        />
+
+
+
+</RelativeLayout>

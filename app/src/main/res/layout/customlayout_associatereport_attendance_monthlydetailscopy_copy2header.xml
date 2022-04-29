@@ -1,0 +1,262 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7"
+        android:layout_margin="2dp">
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID1000112"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:background="#d3d5d7"
+            android:alpha="0.8"
+            android:visibility="gone"
+            />
+
+
+
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthlyDetailsTimeValueTextViewIDnew"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100044"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+        <TextView
+            android:id="@+id/customlayoutassociatereports_MonthlyDetailsTypeValueTextViewIDnew"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Nature\nof\nVisit"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100022"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/customlayoutassociatereports_MonthlyDetailsSubmissionDateValueTextViewIDnew"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="IMD Code"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="visible" /> <!--android:textColor="#464646"-->
+
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100033"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:background="#d3d5d7"
+            android:alpha="0.8"
+            />
+
+
+        <TextView
+            android:id="@+id/customlayoutassociatereports_MonthlyDetailsApplyDateValueTextViewIDnew"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="IMD name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100011"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:background="#d3d5d7"
+            android:alpha="0.8"
+            />
+
+
+        <TextView
+            android:id="@+id/customlayoutassociatereportsMonthlyDetailsReasonValueTextViewIDnew"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Phone\nNumber"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100022e"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/customlayoutassociatereportsMonthlyDetailsReasonValueTextViewID1new"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Address"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100022d"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/customlayoutassociatereportsMonthlyDetailsReasonValueTextViewID2new"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Pincode"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID100022dg"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/customlayoutassociatereportsMonthlyDetailsReasonValueTextViewID3new"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Reason"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/customViewAttendanceApprovalID1000229"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="0dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/customlayoutassociatereportsMonthlyDetailsStatusValueTextViewIDnew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Status"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/requestbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="Details"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"></Button>
+        </LinearLayout>
+    </LinearLayout>
+   <!-- <ListView
+        android:id="@+id/details_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#d3d5d7"
+        android:paddingTop="0dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:background="#ffffff"
+        android:cacheColorHint="@android:color/transparent"
+        android:padding="0dp"
+        android:choiceMode="multipleChoice"
+        android:visibility="gone"/>-->
+</LinearLayout>

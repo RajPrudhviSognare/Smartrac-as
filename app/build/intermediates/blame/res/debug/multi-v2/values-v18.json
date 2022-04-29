@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\b7ae6324209450e2b565b9dd2a87a7fd\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\src\\main\\res\\values-v18\\styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,540,384,634,718",
+                        "endLines": "8,15,13,17,21",
+                        "endColumns": "12,90,12,80,12",
+                        "endOffsets": "376,626,532,710,816"
+                    },
+                    "to": {
+                        "startLines": "3,9,10,14,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "104,423,513,663,743",
+                        "endLines": "8,9,13,14,17",
+                        "endColumns": "12,89,12,79,12",
+                        "endOffsets": "418,508,658,738,839"
+                    }
+                }
+            ]
+        }
+    ]
+}

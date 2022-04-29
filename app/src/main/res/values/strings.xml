@@ -1,0 +1,104 @@
+<resources>
+    <!--<string name="app_name">Mtrac-Casio Like</string>-->
+    <string name="app_name">Smartrac-as</string>
+    <!--<string name="app_name">Manpower</string>-->
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_dash_board_activity_for_associates">
+        DashBoardActivityForAssociates
+    </string>
+    <string name="forgotpasswd">Forgot Password?</string>
+    <string name="logindesc">Please provide your User Name "\u0026" Password as provided by Manpower Group</string>
+    <string name="dashboardbottomtext">"\u00A9" ManpowerGroup Inc.</string>
+    <string name="attendance">Attendance</string>
+    <string name="intime">In Time</string>
+    <string name="outtime">Out Time</string>
+    <string name="leave">Leave</string>
+    <string name="meeting">Meeting</string>
+    <string name="title_activity_give_attendance_tabbed">GiveAttendanceTabbedActivity</string>
+    <string name="title_activity_approve_attendance_tabbed">ApproveAttendanceTabbedActivity</string>
+    <string name="title_activity_hrms_tabbed">HRMSTabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="spinner_title">Select Leave Type</string>
+    <string name="spinner_title12">Select Break Type</string>
+    <string name="spinner_title1">Select Date</string>
+    <string name="spinner_title2">Select Competitor</string>
+    <string name="spinner_title3">Select Category</string>
+    <string name="spinner_title4">Select Sub-Category</string>
+    <string name="spinner_title5">Select Product Name</string>
+    <string name="spinner_title6">Select Employee</string>
+    <string name="spinner_title7">Select Month</string>
+    <string name="spinner_title8">Select Attendance Type</string>
+    <string name="spinner_title9">Select Option</string>
+    <string name="spinner_title10">Select Year</string>
+    <string name="txt_yes_delete">Yes, delete</string>
+    <string name="txt_yes_cancel">Yes, cancel</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_delete_claim">Delete Claim</string>
+    <string name="txt_want_to_delete">Are you sure you want to Delete this?</string>
+    <string name="txt_delete">Delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="leave_spinnerItems">
+        <item>Casual</item>
+        <item>Earned</item>
+        <item>Sick</item>
+
+    </string-array>
+    <string-array name="attendanceapproval_spinnerItems">
+        <item>2016-06-19</item>
+        <item>2016-06-20</item>
+        <item>2016-06-09</item>
+        <item>2016-06-10</item>
+    </string-array>
+
+    <string-array name="attendanceapproval_typerItems">
+        <item>Select Attendance Type</item>
+        <item>In time</item>
+        <item>Out time</item>
+        <item>Weekly off</item>
+        <item>Leave</item>
+        <item>Meeting</item>
+    </string-array>
+
+    <string-array name="panno_spinnerItems">
+        <item>Applied for</item>
+        <item>Number</item>
+        <item>Do not have</item>
+    </string-array>
+
+    <string-array name="aadharno_spinnerItems">
+        <item>Applied for</item>
+        <item>Number</item>
+        <item>Do not have</item>
+    </string-array>
+
+    <string-array name="highestqualificaation_spinnerItems">
+        <item>10th Pass</item>
+        <item>12th Pass</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>Diploma</item>
+    </string-array>
+
+    <string-array name="receiveassetsbytlsoo_spinnerItems">
+        <item>Accept</item>
+        <item>Reject</item>
+    </string-array>
+
+    <string-array name="receiveassetsbytlsoo_spinnerItems1">
+        <item>Usable</item>
+        <item>Damage</item>
+    </string-array>
+
+    <string-array name="break_spinnerItems">
+        <item>Break End</item>
+        <item>Break Start</item>
+    </string-array>
+
+</resources>

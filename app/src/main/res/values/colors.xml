@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#446fa7</color>
+    <color name="dark_grey">#757575</color>
+    <color name="colorPrimaryDark">#446fa7</color>
+    <color name="colorAccent">#6390c8</color>
+    <color name="black">#000000</color>
+    <color name="btncolor">#DC7633</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="edittextcolor">#b6b6b6</color>
+    <color name="attendancetopbarcolor">#446fa7</color>
+    <color name="attendancetabbedcolor">#232b35</color>
+    <color name="faint_grey">#f4f4f4</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="pinky_red">#ff1848</color>
+    <color name="chart_red">#ff1848</color>
+    <!--<color name="attendancetopbarcolor">#6390c8</color>-->
+</resources>
+

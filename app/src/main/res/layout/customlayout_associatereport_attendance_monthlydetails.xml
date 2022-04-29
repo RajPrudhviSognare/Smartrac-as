@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthlyDetailsSubmissionDateValueTextViewID"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="2016-11-21"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/> <!--android:textColor="#464646"-->
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100011"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthlyDetailsTypeValueTextViewID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100033"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthlyDetailsTimeValueTextViewID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100044"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthlyDetailsApplyDateValueTextViewID"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="2016-11-21"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100022"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereportsMonthlyDetailsReasonValueTextViewID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Reason"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID1000229"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereportsMonthlyDetailsStatusValueTextViewID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>

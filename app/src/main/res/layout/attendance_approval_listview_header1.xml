@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#eceff2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <CheckBox
+        android:id="@+id/approveattendance_checkBox_header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dp"
+        android:text="Select All"
+        android:textColor="#4e5d71"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:checked="false" />
+
+
+    <ImageView android:id="@+id/approveattendance_headerApproveImageViewID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/approvebtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView android:id="@+id/rejectattendance_headerRejectImageViewID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rejectbtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_toLeftOf="@+id/approveattendance_headerApproveImageViewID1"/>
+    <View
+        android:id="@+id/customViewAttendanceApprovalID11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        android:layout_below="@+id/rejectattendance_headerRejectImageViewID1"/>
+
+
+
+</RelativeLayout>

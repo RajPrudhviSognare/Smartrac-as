@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="2"
+    android:background="#ffffff"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/customlayout_IndateTextViewID"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="16/Mar/2018"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+    <View
+        android:id="@+id/customViewdistribute_assetID10001999911"
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/customlayout_InTimeTextViewID"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="09:12:24"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customViewASSIGNID1000199990912"
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.8"
+        android:background="#a1a1a1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/customlayout_OuttimeTextViewID"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="17:52:24"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/customViewASSIGNID1000199990943"
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.8"
+        android:background="#a1a1a1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/customlayout_HoursWorkedTextViewID"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="8.40"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+</LinearLayout>

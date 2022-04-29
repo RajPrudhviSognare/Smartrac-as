@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+    
+    <RelativeLayout
+        android:id="@+id/imageCapturetopbarlayoutID"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+		android:background="@color/colorPrimary"
+		android:visibility="visible"
+         >
+		    
+	        <ImageView
+	            android:id="@+id/imageCapturetopbarBackImageID"
+	            android:layout_width="50dp"
+	            android:layout_height="30dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="2dp"
+	            android:layout_marginTop="2dp"
+	            android:layout_marginRight="0dp"
+				android:background="@drawable/leftarrowicon"
+	            android:gravity="center_horizontal"
+	            android:visibility="gone" />
+	        
+	        <TextView
+	            android:id="@+id/imageCapturetopbarTextID"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:layout_marginRight="20dp"
+	            android:text="Camera"
+	            android:textColor="#ffffff"
+	            android:textSize="14sp"
+	            android:textStyle="normal|bold" />
+	        
+	        <!--<ImageView
+        android:id="@+id/imageCapturebuttonCapturePictureID"
+        android:layout_width="60dp"
+	    android:layout_height="35dp"
+        android:layout_marginLeft="2dp"
+	    android:layout_marginTop="2dp"
+	    android:layout_toRightOf="@+id/imageCapturetopbarTextID"
+        android:gravity="center_horizontal"
+        android:background="@null"
+        android:contentDescription="@null"
+         />-->
+	        <!-- <ImageView
+        android:id="@+id/imageCapturebuttonstopID"
+        android:layout_width="50dp"
+	    android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+	    android:layout_marginTop="2dp"
+	    android:layout_toRightOf="@+id/buttonstartID"
+        android:src="@drawable/stoprecord"
+        android:enabled="false"
+        android:gravity="center_horizontal"
+        android:background="@null"
+        android:contentDescription="@null"
+         /> -->
+	        <!-- <ImageView
+        android:id="@+id/imageCapturebtnSwitchFlashID"
+        android:layout_width="50dp"
+	    android:layout_height="30dp"
+        android:layout_marginLeft="2dp"
+	    android:layout_marginTop="2dp"
+	    android:layout_toRightOf="@+id/imageCapturebuttonCapturePictureID"
+        android:src="@drawable/btn_switch_on"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:background="@null"
+        android:contentDescription="@null"
+         /> -->
+	        <!--<ImageView
+	            android:id="@+id/imageCapturetopbarExitImageID"
+	            android:layout_width="50dp"
+	            android:layout_height="30dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginLeft="2dp"
+	            android:layout_marginTop="2dp"
+	            android:layout_marginRight="5dp"
+	            android:background="@drawable/exit"
+	            android:gravity="center_horizontal"
+	            android:visibility="visible" />
+	        
+	        <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:paddingTop="0dp"
+        android:layout_below="@+id/imageCapturetopbarImageID"/>-->
+		         
+    </RelativeLayout>
+    
+    
+
+    	 
+    	 
+</merge>

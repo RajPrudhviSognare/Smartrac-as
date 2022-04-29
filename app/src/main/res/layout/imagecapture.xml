@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+    <include layout="@layout/imagecapturetopbar"/>
+
+<SurfaceView
+    android:id="@+id/imageCapture_surfaceview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/imageCapturetopbarlayoutID"
+    android:layout_weight="1" />
+
+    <!--<ZoomControls
+        android:id="@+id/imageCapture_zoomControlsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_Camera"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:alpha="1.0"
+        android:src="@android:drawable/ic_menu_camera"
+        app:elevation="6dp"
+        app:backgroundTint="#5C6BC0"
+        app:pressedTranslationZ="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:layout_anchorGravity="bottom|right|end"/> <!--app:layout_anchor="@+id/imageCapture_surfaceview"-->
+    
+
+</RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.experis.smartrac.as"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <application
+        android:name="com.experis.smartrac.as.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/applogo1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.experis.smartrac.as.ReimbursementModule.ReimbursementViewAllClaims"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.experis.smartrac.as.ReimbursementModule.ReimbursementOthersFormActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.com.experis.smartrac.as"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.experis.smartrac.as.ReimbursementModule.ReimbursementLodgingFormActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.ReimbursementModule.ReimbursementDailyTravelAllowanceFormActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.ReimbursementModule.ReimbursementDashBoardActivity"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.experis.smartrac.as.SplashActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.experis.smartrac.as.LoginActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.DashBoardActivity"
+            android:label="@string/title_activity_dash_board_activity_for_associates"
+            android:noHistory="false"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.experis.smartrac.as.GiveAttendanceTabbedActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.GiveAttendanceTabbedActivity1"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.GiveAttendanceTabbedActivity2"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.ExitActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.TrainingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.ExitActivity1"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_give_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.ForgotPasswordActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.ChangePasswordActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.GetCurrentLocationActivity"
+            android:label="Current Location"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.ImageCapture"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name="com.experis.smartrac.as.GeolocationService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.experis.smartrac.as.ViewAttendanceActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.ViewAttendanceActivity1"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.LeavepolicyActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.experis.smartrac.as.HRMSTabbedActivity"
+            android:label="@string/title_activity_hrms_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.DashboardAttendanceCountActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.AttendanceApprovalRevisedActivity1"
+            android:label="@string/title_activity_approve_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.Attendance_Approval_Revised_Content_Activity1"
+            android:label="@string/title_activity_approve_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.AttendanceApprovalRevisedActivity2"
+            android:label="@string/title_activity_approve_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.Attendance_Approval_Revised_Content_Activity2"
+            android:label="@string/title_activity_approve_attendance_tabbed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.LargerSelfieImageDisplayActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.InOutTime_ApprovalActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.InOutTime_ApprovalActivity1"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.MessagesForTLActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.MessagesForAssociateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.experis.smartrac.as.MessagesSentForTLActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

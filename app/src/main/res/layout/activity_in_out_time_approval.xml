@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.experis.smartrac.as.InOutTime_ApprovalActivity">
+
+    <RelativeLayout
+        android:id="@+id/attendanceapprovalInOuttimetopbarbackLayoutID"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/inoutattendancetopbarbackImageViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftarrowicon"
+            android:layout_gravity="left"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="In \u0026 out Time"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:id="@+id/mytext"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/attendanceapprovalInOuttimeLayoutID"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        >
+        <TextView
+            android:id="@+id/InOutTimetextTAGViewID199"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Date:"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:paddingRight="5dp"/>
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/attendanceapproval_InOutTimeSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:prompt="@string/spinner_title1"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toRightOf="@+id/InOutTimetextTAGViewID199"
+            android:background="@drawable/attendanceapprovaldropdownback"
+            android:drawSelectorOnTop="true"
+            />
+    </RelativeLayout>
+    <View
+        android:id="@+id/customViewAttendanceApprovalID"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"/>
+
+    <include layout="@layout/attendance_approval_listview_header"/>
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"/>
+
+    <include layout="@layout/attendance_approval_listview_header_table"/>
+
+    <ListView
+        android:id="@+id/InOutTimeattendanceApprovalDetailsListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#d3d5d7"
+        android:paddingTop="0dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:background="#ffffff"
+        android:cacheColorHint="@android:color/transparent"
+        android:padding="0dp"
+        android:choiceMode="multipleChoice"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/InOutTimeattendanceApprovalNoDataTextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Record Found!"
+        android:visibility="gone"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>

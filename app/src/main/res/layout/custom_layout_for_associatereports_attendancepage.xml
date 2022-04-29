@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:weightSum="7">
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MonthTagTextViewID"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customlayoutcustomViewAttendanceApprovalID10001"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_DaysPresentTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customlayoutcustomViewAttendanceApprovalID10002"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_DaysPresentTagTextViewID1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customlayoutcustomViewAttendanceApprovalID100022"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_weeklyoffTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/customlayoutcustomViewAttendanceApprovalID10003"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.8"
+        android:background="#d3d5d7"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_LeaveTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <View
+        android:id="@+id/customlayoutcustomViewAttendanceApprovalID10004"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+
+        />
+
+    <TextView
+        android:id="@+id/customlayoutassociatereports_MeetingTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID100041"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/associatereports_WFHTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#464646"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/customViewAttendanceApprovalID1000412"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="0dp"
+        android:background="#d3d5d7"
+        android:alpha="0.8"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/associatereports_WFCOTagTextViewID"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginBottom="0dp"
+        android:textColor="#464646"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:visibility="gone"/>
+
+</LinearLayout>

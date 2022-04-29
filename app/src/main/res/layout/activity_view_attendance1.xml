@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="0dp"
+    tools:context="com.experis.smartrac.as.ViewAttendanceActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutAttendance12"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_alignParentTop="true">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From Date"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:inputType="datetime"
+            android:lines="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="30dp"
+            android:drawablePadding="15dp"
+            android:maxLength="50"
+            android:visibility="visible"
+            android:gravity="start|center_vertical"
+            android:hint="Select Date"
+            android:theme="@style/MyEditTextTheme"
+            android:id="@+id/attendancepagefromdateEditTextID1"
+            android:background="@drawable/edittextfieldback"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            />--> <!--android:drawableLeft="@drawable/usericon"-->
+
+        <LinearLayout
+            android:id="@+id/birthdayleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="datetime"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="Select Date"
+                android:textColorHint="#e1e1e1"
+                android:focusable="false"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/attendancepagetodateEditTextID_birthday"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#e1e1e1"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/normalleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Date:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="datetime"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="Select Date"
+                android:textColorHint="#615D5D"
+                android:focusable="false"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/attendancepagetodateEditTextID1"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Date:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:inputType="datetime"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="15dp"
+                android:maxLength="50"
+                android:visibility="visible"
+                android:gravity="start|center_vertical"
+                android:hint="Select Date"
+                android:textColorHint="#615D5D"
+                android:focusable="false"
+                android:theme="@style/MyEditTextTheme"
+                android:id="@+id/attendancepagefromdateEditTextID1"
+                android:background="@drawable/edittextfieldforsalestracking"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                /> <!--android:background="@drawable/edittextfieldback"-->
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/attendancePageSubmitImageViewID3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submitbtn"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"/>
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="visible" />-->
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/backdropdownfieldblack"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/leave_spinnerItems"
+            android:prompt="@string/spinner_title"
+            android:textColor="#ffffff"
+            android:visibility="gone" /> <!--android:background="@drawable/attendanceapprovaldropdownback"-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason:"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/attendancepagereasonEditTextID1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittextfieldforsalestracking"
+            android:drawablePadding="15dp"
+            android:gravity="start|center_vertical"
+            android:hint="Reason"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:textColor="#e1e1e1"
+            android:textColorHint="#e1e1e1"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:theme="@style/MyEditTextTheme"
+            android:visibility="gone" /> <!--android:background="@drawable/edittextfieldback"-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_header_viewAttendance_table_LinearLayoutID"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#cccccc"
+        android:weightSum="4"
+        android:layout_marginTop="0dp"
+        android:visibility="visible"
+        android:layout_below="@+id/linearLayoutAttendance12">
+
+        <TextView
+            android:id="@+id/listviewHeader_IndateTagTextViewID"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="Type"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold" />
+        <View
+            android:id="@+id/customViewdistribute_assetID1000199991"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+            />
+
+        <TextView
+            android:id="@+id/listviewHeader_InTimeTagTextViewID"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="From Date \nto\nTo Date"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold" />
+        <View
+            android:id="@+id/customViewASSIGNID100019999091"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+            />
+
+        <TextView
+            android:id="@+id/listviewHeader_OuttimeTagTextViewID"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Total Days"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold" />
+        <View
+            android:id="@+id/customViewASSIGNID100019999094"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+            />
+
+        <TextView
+            android:id="@+id/listviewHeader_HoursWorkedTagTextViewID"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold" />
+
+        <View
+            android:id="@+id/customViewASSIGNID10001999"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+           android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/listviewHeader_PL"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="PL Count"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/customViewASSIGNID1000199"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="0dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/listviewHeader_LWP"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="LWP Count"
+            android:textColor="#1a237e"
+            android:textSize="13sp"
+            android:textStyle="normal|bold"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/viewAttendanceDetailsListViewID"
+        android:layout_below="@+id/listview_header_viewAttendance_table_LinearLayoutID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#a1a1a1"
+        android:paddingTop="0dp"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:background="#ffffff"
+        android:cacheColorHint="@android:color/transparent"
+        android:padding="0dp"
+        android:choiceMode="multipleChoice"
+        android:layout_weight="4"/>
+    <View
+        android:id="@+id/customViewASSIGNID"
+        android:layout_below="@+id/viewAttendanceDetailsListViewID"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/viewAttendanceDetailsNoDataTextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Record Found!"
+        android:visibility="gone"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="0dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:textColor="#ff0000"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</RelativeLayout>

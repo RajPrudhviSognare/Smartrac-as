@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:id="@+id/dashboardbottomLayoutID1">
+
+    <!--<TextView
+        android:id="@+id/dashboardbottomTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboardbottomtext"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="#464646"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />-->
+
+</LinearLayout>

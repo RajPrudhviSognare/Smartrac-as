@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <CheckBox
+        android:id="@+id/custom_approveattendance_checkBoxID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:checked="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/custom_approveattendance_checkBoxID">
+
+        <TextView
+            android:id="@+id/custom_approveattendance_NameTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#464646"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/custom_approveattendance_IDTextViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="normal|bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:textColor="#878787"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <ImageView android:id="@+id/custom_approveattendance_SelfieImageViewID"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/custom_approveattendance_TimeTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_toLeftOf="@+id/custom_approveattendance_SelfieImageViewID"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#464646"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>

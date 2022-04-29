@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    ><!--android:background="@drawable/topbardashboardback"-->
+
+    <ImageView
+        android:id="@+id/dashboardtopbarLogouticonImageViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logout_icon"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/whitecolor"
+        android:id="@+id/mytext"
+        android:textSize="16sp"
+        />
+
+    <ImageView
+    android:id="@+id/dashboardtopbarusericonImageViewID"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/topbardashboardusericon"
+    android:layout_gravity="center"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/dashboardtopbarLocationImageViewID"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mapicon"
+        android:layout_gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toLeftOf="@+id/dashboardtopbarusericonImageViewID"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"/> <!-- android:background="@android:drawable/ic_dialog_map" -->
+
+</RelativeLayout>

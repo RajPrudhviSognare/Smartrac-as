@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/DashboardAttendanceCountTotalUsersTAGTextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="TOTAL USERS"
+        android:textColor="#1c1c1c"
+        android:textSize="17sp"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        />
+    <TextView
+        android:id="@+id/DashboardAttendanceCountTotalUsersValueTextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:text="0"
+        android:textColor="#2d2d2d"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        />
+    <View
+        android:id="@+id/DashboardAttendanceCountcustomView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#a1a1a1"
+        android:alpha="0.8"
+        android:visibility="visible"
+        />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        >
+       <!-- Full Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountFullDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="IN TIME"
+            android:textColor="#1c1c1c"
+            android:textSize="17sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Approved "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#1B5E20"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Rejected "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#B71C1C"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Pending "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#FF5722"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountFullDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#a1a1a1"
+            android:alpha="0.8"
+            android:visibility="visible"
+            />
+        <!-- End Of Full Day-->
+
+
+        <!-- Half Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountHalfDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="OUT TIME"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Approved "
+                android:textColor="#1B5E20"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Rejected "
+                android:textColor="#B71C1C"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Pending "
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountHalfDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Half Day-->
+
+
+        <!-- Leave Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountLeaveDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="LEAVE"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Approved "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#1B5E20"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Rejected "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#B71C1C"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Pending "
+                android:textStyle="normal|bold"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                android:textColor="#FF5722"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/DashboardAttendanceCountLeaveDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="normal"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:textSize="14sp"
+                android:textColor="#1c1c1c"
+                android:gravity="left"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Leave Day-->
+
+
+        <!-- Meeting Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountMeetingDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="OD"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Approved "
+                android:textColor="#1B5E20"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Rejected "
+                android:textColor="#B71C1C"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Pending "
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountMeetingDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Meeting Day-->
+
+
+        <!-- WeeklyOff Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountWeeklyOffDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="WEEKLY OFF"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Approved "
+                android:textColor="#1B5E20"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Rejected "
+                android:textColor="#B71C1C"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Pending "
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountWeeklyOffDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of WeeklyOff Day-->
+
+
+
+        <!-- Training Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountTrainingDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="LWP"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayApprovedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Approved "
+                android:textColor="#1B5E20"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayApprovedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayRejectedTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Rejected "
+                android:textColor="#B71C1C"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayRejectedValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayPendingTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Pending "
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTrainingDayPendingValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Training Day-->
+
+
+
+        <!-- Absent Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountTOTALABSENTDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="ABSENT"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALABSENTDayCountTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Total "
+                android:textColor="#3E2723"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALABSENTDayCountValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Absent Day-->
+
+        <!-- Absconding Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountTOTALAbscondingDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="ABSCONDING"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/absconding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALAbscondingDayCountTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Total "
+                android:textColor="#3E2723"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALAbscondingDayCountValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALAbscondingDayCountValueTextViewID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="Details"
+                android:textColor="#FFC107"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Absconding Day-->
+
+
+        <!-- Not Available Day-->
+        <TextView
+            android:id="@+id/DashboardAttendanceCountTOTALNotAvailableDayTAGTextViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="25dp"
+            android:paddingTop="0dp"
+            android:text="NOT AVAILABLE"
+            android:textColor="#1c1c1c"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALNotAvailableDayCountTagTextViewID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Total "
+                android:textColor="#3E2723"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/DashboardAttendanceCountTOTALNotAvailableDayCountValueTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textColor="#1c1c1c"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/DashboardAttendanceCountcustomView89"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#a1a1a1"
+            android:visibility="visible" />
+        <!-- End Of Not Available Day-->
+
+
+        </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

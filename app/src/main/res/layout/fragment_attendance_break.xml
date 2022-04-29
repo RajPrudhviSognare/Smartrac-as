@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewAttendance42"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232b35"
+    tools:context="com.experis.smartrac.as.AttendanceBreakFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayoutAttendance123"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="datetime"
+                    android:lines="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="15dp"
+                    android:maxLength="50"
+                    android:visibility="gone"
+                    android:gravity="start|center_vertical"
+                    android:hint="Select Date"
+                    android:textColorHint="#e1e1e1"
+                    android:focusable="false"
+                    android:theme="@style/MyEditTextTheme"
+                    android:id="@+id/attendancepagetodateEditTextID12"
+                    android:background="@drawable/edittextfieldforsalestracking"
+                    android:textColor="#e1e1e1"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    /> <!--android:background="@drawable/edittextfieldback"-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Break Type:"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"/>
+
+                <!-- Spinner Element -->
+                <Spinner
+                    android:id="@+id/spinner12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:prompt="@string/spinner_title12"
+                    android:entries="@array/break_spinnerItems"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/backdropdownfieldblack"
+                    android:layout_marginBottom="10dp"
+                    android:drawSelectorOnTop="true"
+                    android:textColor="#ffffff"
+                    /> <!--android:background="@drawable/attendanceapprovaldropdownback"-->
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reason:"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="15dp"
+                    android:maxLength="50"
+                    android:visibility="visible"
+                    android:gravity="start|center_vertical"
+                    android:hint="Reason for break"
+                    android:textColorHint="#e1e1e1"
+                    android:theme="@style/MyEditTextTheme"
+                    android:id="@+id/attendancepagereasonEditTextID12"
+                    android:background="@drawable/edittextfieldforsalestracking"
+                    android:textColor="#e1e1e1"
+                    android:textSize="14sp"
+                    android:textStyle="normal"
+                    /> <!--android:background="@drawable/edittextfieldback"-->
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/attendancePageSubmitImageViewID42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submitbtn"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.experis.smartrac.as.HRMSPayslipFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Select Month"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/hrmsPayslipMonthSelectionSpinnerID"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/backdropdownfieldblack"
+                android:drawSelectorOnTop="true"
+                android:prompt="@string/spinner_title7" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Enter Year"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <AutoCompleteTextView
+                android:id="@+id/hrmsPayslipYearSelectionAutoCompleteTextViewID"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/box"
+                android:completionHint="Type a Year. Ex: 2016"
+                android:completionThreshold="1"
+                android:digits="0123456789"
+                android:ems="4"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Year"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="4"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Select Year"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/hrmsPayslipYearSelectionSpinnerID"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/backdropdownfieldblack"
+                android:drawSelectorOnTop="true"
+                android:prompt="@string/spinner_title10" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/hrmsPayslipBtnID"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundcorner_button"
+            android:text="Get Payslip"
+            android:textColor="#ffffff" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"
+            android:background="#d3d5d7" />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.5"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Download Link:"
+                android:layout_weight="1"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/employeeinfoPageEmployeeCodeTextViewID"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Link comes here"
+                android:layout_weight=".5"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:textStyle="normal"
+                android:textSize="14sp"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="#000000"/>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/hrmsPayslipDownloadLinkLayoutID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/hrmsPayslipDownloadLinkTagTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:text="(Click on the below 'icon' to download the payslip)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="normal" /> <!--android:text="Download Link: (Click on the below link to download the payslip)"-->
+            <TextView
+                android:id="@+id/hrmsPayslipPagePaySlipLinkTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="0dp"
+                android:paddingTop="10dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/hrmsPayslipPagePaySlipLinkPDF_DownloadImageViewID"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pdficon" />
+
+            <TextView
+                android:id="@+id/hrmsPayslipOpenMessageTagTextViewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="0dp"
+                android:paddingTop="30dp"
+                android:text="Please Use Your Employee Code to Open The Payslip"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#d3d5d7"
+                android:alpha="0.8"
+                />-->
+
+    </LinearLayout>
+
+</ScrollView>
