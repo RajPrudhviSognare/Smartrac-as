@@ -311,7 +311,8 @@ public class AttendanceMeetingFragment extends Fragment implements DatePickerDia
        // client.AddParam("associate_code", Constants.ASSOCIATE_ID);
         client.AddParam("associate_id", prefs.getString("USERID",""));
         System.out.println("associate_code: "+Constants.ASSOCIATE_ID);
-
+        client.AddParam("outlet_id", Constants.OUTLET_ID);
+        System.out.println("outlet_id: "+Constants.OUTLET_ID);
         client.AddParam("attendance_type", Constants.ATTENDANCE_TYPE);
         System.out.println("attendance_type: "+Constants.ATTENDANCE_TYPE);
 

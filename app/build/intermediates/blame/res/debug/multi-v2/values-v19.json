@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "outputFile": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "source": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "from": {
                         "startLines": "3,15,10,17,19",
                         "startColumns": "4,4,4,4,4",

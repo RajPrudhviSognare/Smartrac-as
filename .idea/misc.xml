@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO/Desktop/Smartrac-as/app/src/main/res/layout/activity_dash_board.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/LENOVO/Desktop/Smartrac-as/app/src/main/res/layout/activity_exit.xml" value="0.5" />
+        <entry key="..\:/Users/LENOVO/Desktop/Smartrac-as/app/src/main/res/layout/attendance_outtime_fragment.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/LENOVO/Desktop/Smartrac-as/app/src/main/res/layout/content_dash_board_activity.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/LENOVO/Desktop/Smartrac-as/app/src/main/res/layout/dashboardtoplayout.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/LENOVO/Downloads/Smartrac Numhens/Smartrac-NUNHEMS/app/src/main/res/drawable/spinner_sla.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO/Downloads/Smartrac Numhens/Smartrac-NUNHEMS/app/src/main/res/drawable/white_round_corner.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO/Downloads/Smartrac Numhens/Smartrac-NUNHEMS/app/src/main/res/layout-v21/dialog_image_full_screen.xml" value="0.15489130434782608" />

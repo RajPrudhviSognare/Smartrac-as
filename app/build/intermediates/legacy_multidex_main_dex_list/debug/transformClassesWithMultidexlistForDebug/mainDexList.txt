@@ -151,7 +151,7 @@ android/support/v7/widget/ViewBoundsCheck$ViewBounds.class
 androidx/versionedparcelable/NonParcelField.class
 androidx/versionedparcelable/ParcelField.class
 androidx/versionedparcelable/VersionedParcelize.class
-com/experis/smartrac/nh/MyApplication.class
+com/experis/smartrac/as/MyApplication.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/android/gms/ads/formats/NativeAdOptions$AdChoicesPlacement.class
 com/google/android/gms/appinvite/AppInviteInvitation$IntentBuilder$PlatformMode.class

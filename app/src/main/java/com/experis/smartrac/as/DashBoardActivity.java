@@ -123,9 +123,9 @@ public class DashBoardActivity extends AppCompatActivity {
             R.drawable.reimbursement,
     };
     private int dashIconsForTL[] = {
-
-            R.drawable.reimbursement,
-
+            R.drawable.attendanceapprovalicon,
+            R.drawable.associatereporticon,
+            R.drawable.exit_form,
     };
 
 
@@ -419,14 +419,25 @@ public class DashBoardActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int pos, long id) {
 
-
                 if (pos == 0) {
-                    Intent i = new Intent(DashBoardActivity.this, ReimbursementDashBoardActivity.class);
+                    Intent i = new Intent(DashBoardActivity.this, AttendanceApprovalRevisedActivity1.class);
+                    startActivity(i);
+                    overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
+                   /* Intent i = new Intent(DashBoardActivity.this,AssociateReportsTabbedActivity.class);
+                    startActivity(i);
+                    overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);*/
+                }
+                if (pos == 1) {
+                    Intent i = new Intent(DashBoardActivity.this, ViewAttendanceActivity.class);
+                    startActivity(i);
+                    overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
+                }
+                if (pos == 2) {
+                    Intent i = new Intent(DashBoardActivity.this, ExitActivity1.class);
                     startActivity(i);
                     overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
                 }
             }
-
         });
         /***End Of GridView Options Click Listener For tl***/
 
@@ -1516,7 +1527,8 @@ public class DashBoardActivity extends AppCompatActivity {
     }//checkAllPermissions()
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String permissions[],
+                                           int[] grantResults) {
         switch (requestCode) {
             case 1991: {
                 // If request is cancelled, the result arrays are empty.

@@ -215,11 +215,11 @@ public class GiveAttendanceTabbedActivity extends AppCompatActivity {
         //ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new AttendanceIntimeFragmet(), "Present");
-       // adapter.addFragment(new AttendanceOuttimeFragment(), "Out TIme");
+        adapter.addFragment(new AttendanceOuttimeFragment(), "Out TIme");
         //adapter.addFragment(new AttendanceWeeklyoffFragment(), "Weekly Off");
-        //adapter.addFragment(new AttendanceLeaveFragment(), "Leave");
+        adapter.addFragment(new AttendanceLeaveFragment(), "Leave");
        // adapter.addFragment(new AttendanceWeeklyoffFragment(), "Weekly Off");
-      //  adapter.addFragment(new AttendanceMeetingFragment(), "OD");
+        adapter.addFragment(new AttendanceMeetingFragment(), "OD");
        // adapter.addFragment(new AttendanceLWPFragment(), "LWP");
         /*adapter.addFragment(new AttendanceBreakFragment(), "Break");*/
         viewPager.setAdapter(adapter);

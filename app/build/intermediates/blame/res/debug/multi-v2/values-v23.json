@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\src\\main\\res\\values-v23\\styles.xml",
-                    "from": {
-                        "startLines": "3,15,10,17,19",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "57,540,384,634,718",
-                        "endLines": "8,15,13,17,21",
-                        "endColumns": "12,90,12,80,12",
-                        "endOffsets": "376,626,532,710,816"
-                    },
-                    "to": {
-                        "startLines": "2,8,9,13,52",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,374,464,614,3435",
-                        "endLines": "7,8,12,13,54",
-                        "endColumns": "12,89,12,79,12",
-                        "endOffsets": "369,459,609,689,3531"
-                    }
-                },
                 {
                     "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\eb685760cc172fa366f14bb6456b1404\\res\\values-v23\\values-v23.xml",
                     "from": {
@@ -58,6 +39,25 @@
                         "endLines": "14,15,16,17,30,43,44,45,46,47,48",
                         "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
                         "endOffsets": "824,959,1034,1121,1911,2713,2840,2945,3060,3167,3280"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,540,384,634,718",
+                        "endLines": "8,15,13,17,21",
+                        "endColumns": "12,90,12,80,12",
+                        "endOffsets": "376,626,532,710,816"
+                    },
+                    "to": {
+                        "startLines": "2,8,9,13,52",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,374,464,614,3435",
+                        "endLines": "7,8,12,13,54",
+                        "endColumns": "12,89,12,79,12",
+                        "endOffsets": "369,459,609,689,3531"
                     }
                 }
             ]

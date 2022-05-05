@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\865a32614ee17f1794fde5510c7250b5\\res\\values-v21\\values-v21.xml",
@@ -42,6 +42,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\LENOVO\\Desktop\\Smartrac-as\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17,19",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,540,384,634,718",
+                        "endLines": "8,15,13,17,21",
+                        "endColumns": "12,90,12,80,12",
+                        "endOffsets": "376,626,532,710,816"
+                    },
+                    "to": {
+                        "startLines": "6,12,13,17,237",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "354,673,763,913,17552",
+                        "endLines": "11,12,16,17,239",
+                        "endColumns": "12,89,12,79,12",
+                        "endOffsets": "668,758,908,988,17648"
+                    }
+                },
+                {
                     "source": "C:\\Users\\LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\bccc87fe1a0585c1b49877e338b1b039\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
@@ -58,25 +77,6 @@
                         "endLines": "282,285,289,293",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "20407,20570,20864,21159"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\LENOVO\\Downloads\\Smartrac Numhens\\Smartrac-as\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3,15,10,17,19",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "57,540,384,634,718",
-                        "endLines": "8,15,13,17,21",
-                        "endColumns": "12,90,12,80,12",
-                        "endOffsets": "376,626,532,710,816"
-                    },
-                    "to": {
-                        "startLines": "6,12,13,17,237",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "354,673,763,913,17552",
-                        "endLines": "11,12,16,17,239",
-                        "endColumns": "12,89,12,79,12",
-                        "endOffsets": "668,758,908,988,17648"
                     }
                 },
                 {
